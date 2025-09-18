@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import Logo from '../../assets/img/logo.png';
 import StickyIcons from '../../Components/StickyIcons';
 import Footer from '../../Components/Footer';
+import Image1 from '../../assets/img/2.png';
 
 const Home = () => {
   useEffect(() => {
@@ -583,13 +584,14 @@ const Home = () => {
             data-aos-delay="120"
           >
             <img
-              // src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop"
-               src="src/assets/img/1.png"
+              src={Image1}
               alt="founder"
               className="w-24 h-24 object-cover rounded-full mx-auto border-2 border-slate-700"
             />
             <h3 className="mt-4 font-bold text-white">Dilouar Hossain</h3>
-            <div className="text-sm text-slate-300">Founder & Strategy Consultant</div>
+            <div className="text-sm text-slate-300">
+              Founder & Strategy Consultant
+            </div>
           </div>
 
           <div

@@ -11,7 +11,7 @@ const Footer = () => {
           <span className="underline hover:text-blue-500">Return Policy </span>
           <span className="underline hover:text-blue-500">Sitemap </span>
           <Link
-            className="cursor-pointer underline hover:text-blue-500o"
+            className="cursor-pointer underline hover:text-blue-500"
             target="_blank"
             to={'/privacy-policy'}
           >
