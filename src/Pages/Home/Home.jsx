@@ -584,12 +584,7 @@ const Home = () => {
             data-aos-delay="120"
           >
             <img
-<<<<<<< HEAD
               src={Image1}
-=======
-              // src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop"
-               src="src/assets/img/2.png"
->>>>>>> b2472c0c50b1b7a6d88cf39ad1137f70bdfabe34
               alt="founder"
               className="w-24 h-24 object-cover rounded-full mx-auto border-2 border-slate-700"
             />
