@@ -584,7 +584,7 @@ const Home = () => {
           >
             <img
               // src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop"
-               src="src/assets/img/1.png"
+               src="src/assets/img/2.png"
               alt="founder"
               className="w-24 h-24 object-cover rounded-full mx-auto border-2 border-slate-700"
             />
