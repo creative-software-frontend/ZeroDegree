@@ -105,10 +105,9 @@ const KeyFeatures = () => {
     <section className=" px-4  text-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
-          <p className="text-xl text-blue-300">Core Features</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Features</h2>
           <p className="mt-2 text-gray-400">
-            তাছাড়া প্রয়োজনীয় ৪১ টি কি-ফিচার ইনবিল্ট করা হয়ে থাকে
+            প্রয়োজনীয় কি-ফিচার ইনবিল্ট করা হয়ে থাকে
           </p>
         </div>
 
