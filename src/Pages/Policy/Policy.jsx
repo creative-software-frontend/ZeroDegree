@@ -1,25 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Policy = () => {
   return (
     <div className="max-w-5xl mx-auto px-6 py-12 text-gray-800 leading-relaxed">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-        Privacy Policy for ZERO DEGREE
+        Privacy Policy for{' '}
+        <Link className="text-blue-500" to={'https://zerodegree.com.bd/'}>
+          ZERO DEGREE
+        </Link>
       </h1>
-
       <p>
-        At ZERO DEGREE, accessible from{' '}
-        <a
-          href="https://zerodegree.com.bd/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-green-600 underline"
-        >
-          https://zerodegree.com.bd
-        </a>
-        , one of our main priorities is the privacy of our visitors. This
-        Privacy Policy document contains types of information that is collected
-        and recorded by ZERO DEGREE and how we use it.
+        At{' '}
+        <Link className="text-blue-500" to={'https://zerodegree.com.bd/'}>
+          {' '}
+          ZERO DEGREE
+        </Link>{' '}
+        accessible , one of our main priorities is the privacy of our visitors.
+        This Privacy Policy document contains types of information that is
+        collected and recorded by{' '}
+        <Link className="text-blue-500" to={'https://zerodegree.com.bd/'}>
+          ZERO DEGREE
+        </Link>{' '}
+        and how we use it.
       </p>
 
       <p className="mt-4">
@@ -30,10 +33,13 @@ const Policy = () => {
       <p className="mt-4">
         This Privacy Policy applies only to our online activities and is valid
         for visitors to our website with regards to the information that they
-        shared and/or collect in ZERO DEGREE. This policy is not applicable to
-        any information collected offline or via channels other than this
-        website. Our Privacy Policy was created with the help of the Free
-        Privacy Policy Generator.
+        shared and/or collect in{' '}
+        <Link className="text-blue-500" to={'https://zerodegree.com.bd/'}>
+          ZERO DEGREE
+        </Link>
+        . This policy is not applicable to any information collected offline or
+        via channels other than this website. Our Privacy Policy was created
+        with the help of the Free Privacy Policy Generator.
       </p>
 
       {/* Section Headings */}
@@ -91,11 +97,14 @@ const Policy = () => {
         participate in, and/or monitor and guide their online activity.
       </p>
       <p className="mt-4">
-        ZERO DEGREE does not knowingly collect any Personal Identifiable
-        Information from children under the age of 13. If you think that your
-        child provided this kind of information on our website, we strongly
-        encourage you to contact us immediately and we will do our best efforts
-        to promptly remove such information from our records.
+        <Link className="text-blue-500" to={'https://zerodegree.com.bd/'}>
+          ZERO DEGREE
+        </Link>{' '}
+        does not knowingly collect any Personal Identifiable Information from
+        children under the age of 13. If you think that your child provided this
+        kind of information on our website, we strongly encourage you to contact
+        us immediately and we will do our best efforts to promptly remove such
+        information from our records.
       </p>
     </div>
   );

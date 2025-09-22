@@ -9,6 +9,8 @@ import Contact from '../../Components/Contact/Contact';
 import Portfolio from '../../Components/Portfolio/Portfolio';
 import Team from '../../Components/Team/Team';
 import About from '../../Components/About/About';
+import KeyFeatures from '../../Components/KeyFeatures/KeyFeatures';
+import Special from '../../Components/Special/Special';
 
 const Home = () => {
   useEffect(() => {
@@ -84,6 +86,10 @@ const Home = () => {
       <section id="services" className="max-w-6xl mx-auto px-6 mt-20 mb-20">
         <Services></Services>
       </section>
+      {/* Key Features */}
+      <section id="features" className="max-w-6xl mx-auto px-6 mt-20 mb-20">
+        <KeyFeatures></KeyFeatures>
+      </section>
       {/*  Package */}
       <section id="package" className="max-w-6xl mx-auto px-6 mt-20">
         <Packages></Packages>
@@ -97,12 +103,16 @@ const Home = () => {
         <Team></Team>
       </section>
       {/* Contact Section */}
-      <section id="contact" className="max-w-6xl mx-auto px-6 mt-20 mb-20">
+      <section id="contact" className="max-w-6xl mx-auto px-6 mt-20 pb-10">
         <Contact></Contact>
       </section>
 
       {/* StickyIcons */}
       <StickyIcons></StickyIcons>
+      {/* Special special */}
+      <section id="contact" className="max-w-6xl mx-auto px-6 mt-20 pb-10">
+        <Special></Special>
+      </section>
     </div>
   );
 };

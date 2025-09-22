@@ -1,6 +1,8 @@
 import React from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
 import { FaXmark } from 'react-icons/fa6';
+import { FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Packages = () => {
   const packages = [
@@ -35,7 +37,16 @@ const Packages = () => {
       ],
       price: '১৫,০০০ টাকা',
       originalPrice: '২০,০০০ টাকা',
-      paymentMethods: ['Nagod', 'SSLCOMMERZ', 'bKash'],
+      demos: [
+        {
+          name: 'Demo-1',
+          link: 'https://devilish-crowd.surge.sh/',
+        },
+        {
+          name: 'demo-2',
+          link: 'https://familiar-corn.surge.sh/ ',
+        },
+      ],
       popular: false,
     },
     {
@@ -69,7 +80,16 @@ const Packages = () => {
       ],
       price: '২০,০০০ টাকা',
       originalPrice: '২৫,০০০ টাকা',
-      paymentMethods: ['Nagod', 'SSLCOMMERZ', 'bKash'],
+      demos: [
+        {
+          name: 'Demo-1',
+          link: 'https://devilish-crowd.surge.sh/',
+        },
+        {
+          name: 'demo-2',
+          link: 'https://familiar-corn.surge.sh/ ',
+        },
+      ],
       popular: true,
     },
     {
@@ -103,7 +123,16 @@ const Packages = () => {
       ],
       price: '৩০,০০০ টাকা',
       originalPrice: '৪০,০০০ টাকা',
-      paymentMethods: ['bKash', 'SSLCOMMERZ', 'Nagod'],
+      demos: [
+        {
+          name: 'Demo-1',
+          link: 'https://devilish-crowd.surge.sh/',
+        },
+        {
+          name: 'demo-2',
+          link: 'https://familiar-corn.surge.sh/ ',
+        },
+      ],
       popular: false,
     },
   ];
@@ -167,28 +196,30 @@ const Packages = () => {
                   }`}
                 >
                   <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-4">
-                    পেমেন্ট মাধ্যম
+                    লাইভ ড্যামো
                   </h4>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    {pkg.paymentMethods.map((method, i) => (
+                    {pkg.demos.map((demo, i) => (
                       <span
                         key={i}
                         className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full border border-gray-700"
                       >
-                        {method}
+                        <Link target="_blank" to={`${demo.link}`}>
+                          {' '}
+                          {demo.name}
+                        </Link>
                       </span>
                     ))}
                   </div>
 
-                  <button
-                    className={`w-full py-3 rounded-lg font-semibold ${
-                      pkg.popular
-                        ? 'bg-gradient-to-r from-[#7a5aff] to-[#ff5a7a] text-white hover:shadow-lg '
-                        : 'bg-gray-800 hover:bg-gray-700 text-white'
-                    } transition-all duration-300 shadow-md`}
+                  <a
+                    href="https://wa.me/01978866977"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-green-600 transition-colors"
                   >
-                    Order now
-                  </button>
+                    <FaWhatsapp /> WhatsApp
+                  </a>
                 </div>
               </div>
             </div>
