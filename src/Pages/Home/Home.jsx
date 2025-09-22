@@ -109,8 +109,8 @@ const Home = () => {
 
       {/* StickyIcons */}
       <StickyIcons></StickyIcons>
-      {/* Special special */}
-      <section id="contact" className="max-w-6xl mx-auto px-6 mt-20 pb-10">
+      {/* Special section */}
+      <section id="special" className="max-w-6xl mx-auto px-6 mt-20 pb-10">
         <Special></Special>
       </section>
     </div>

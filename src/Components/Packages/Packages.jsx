@@ -40,11 +40,15 @@ const Packages = () => {
       demos: [
         {
           name: 'Demo-1',
-          link: 'https://devilish-crowd.surge.sh/',
+          link: 'https://demo-bd.com/ecom/ecom1/',
         },
         {
           name: 'demo-2',
-          link: 'https://familiar-corn.surge.sh/ ',
+          link: 'https://demo-bd.com/ecom/ecom2/ ',
+        },
+        {
+          name: 'demo-3',
+          link: 'https://demo-bd.com/ecom/ecom3/ ',
         },
       ],
       popular: false,
