@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaPhone, FaWhatsapp, FaUserTie } from 'react-icons/fa';
 import Image from '../../assets/img/2.png';
+import StatsSection from './StatsSection';
 
 const Meeting = () => {
-  // const CEOImage =
-  //   'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80';
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <header>
@@ -26,57 +27,27 @@ const Meeting = () => {
             <p className="text-xl mb-8">ইকমার্স বিজনেস শুরু করবেন?</p>
             <div className="flex flex-col md:flex-row justify-center gap-4">
               <a
-                href="tel:01XXXXXXXXX"
+                href="tel:01978866977"
                 className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-gray-100 transition-colors"
               >
                 <FaPhone /> Call Now
               </a>
               <a
-                href="https://wa.me/01XXXXXXXXX"
+                href="https://wa.me/01978866977"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-green-600 transition-colors"
               >
                 <FaWhatsapp /> WhatsApp
               </a>
-              <a
-                href="#meeting-form"
-                className="bg-purple-500 text-white px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-purple-600 transition-colors"
-              >
-                Go to Meeting Form
-              </a>
             </div>
           </div>
         </header>
         {/* Stats Section */}
-        <section className="py-12 px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-              ZERO DEGREE এর অর্জন
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-              <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-4xl font-bold text-blue-400 mb-2">
-                  400+
-                </div>
-                <p>Websites</p>
-              </div>
-              <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-4xl font-bold text-blue-400 mb-2">10+</div>
-                <p>Years</p>
-              </div>
-              <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-4xl font-bold text-blue-400 mb-2">
-                  45min
-                </div>
-                <p>1-to-1 Free Meeting</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <StatsSection></StatsSection>
         {/* CEO Intro Section - Fixed Image Formatting */}
         <section className="py-12 px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="bg-gray-800 text-white rounded-xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center gap-8">
               <div className="flex-shrink-0">
                 <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg mx-auto">
@@ -105,7 +76,7 @@ const Meeting = () => {
         </section>
         {/* Benefits Section */}
         <section className="py-12 px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
               মিটিংয়ে যা আলোচনা হবে
             </h2>

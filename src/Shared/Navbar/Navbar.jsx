@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="fixed top-0 left-0 w-full bg-primary shadow-sm z-50 p-3">
-        <div className="flex items-center justify-between container mx-auto">
+        <div className="flex items-center justify-between max-w-7xl mx-auto">
           {/* Left: Logo & Hamburger */}
           <div className="flex items-center gap-4">
             <CiMenuFries

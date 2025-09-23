@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="font-inter text-[#e6eef8] bg-gradient-to-b from-[#0b1020] to-[#071026] sticky top-0 z-50  backdrop-blur-md">
       {' '}
-      <nav className=" max-w-6xl mx-auto py-6 flex items-center justify-between ">
+      <nav className=" max-w-7xl mx-auto py-6 flex items-center justify-between ">
         <Link to={'/'}>
           {' '}
           <div className="flex items-center gap-3">

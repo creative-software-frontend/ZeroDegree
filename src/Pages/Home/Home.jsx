@@ -24,7 +24,7 @@ const Home = () => {
       {/* Header Section */}
       <header
         id="home"
-        className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center  py-10"
+        className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center  py-10"
       >
         <div data-aos="fade-up">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
@@ -79,38 +79,38 @@ const Home = () => {
         </div>
       </header>
       {/* About Section */}
-      <section id="about" className="max-w-6xl mx-auto px-6 mt-20">
+      <section id="about" className="max-w-7xl mx-auto  mt-20">
         <About></About>
       </section>
       {/* Services Section */}
-      <section id="services" className="max-w-6xl mx-auto px-6 mt-20 mb-20">
+      <section id="services" className="max-w-7xl mx-auto  mt-20 mb-20">
         <Services></Services>
       </section>
       {/* Key Features */}
-      <section id="features" className="max-w-6xl mx-auto px-6 mt-20 mb-20">
+      <section id="features" className="max-w-7xl mx-auto  mt-20 mb-20">
         <KeyFeatures></KeyFeatures>
       </section>
       {/*  Package */}
-      <section id="package" className="max-w-6xl mx-auto px-6 mt-20">
+      <section id="package" className="max-w-7xl mx-auto  mt-20">
         <Packages></Packages>
       </section>
       {/* Portfolio Section */}
-      <section id="portfolio" className="max-w-6xl mx-auto px-6 mt-20">
+      <section id="portfolio" className="max-w-7xl mx-auto  mt-20">
         <Portfolio></Portfolio>
       </section>
       {/* Team Section */}
-      <section id="team" className="max-w-6xl mx-auto px-6 mt-20">
+      <section id="team" className="max-w-7xl mx-auto  mt-20">
         <Team></Team>
       </section>
       {/* Contact Section */}
-      <section id="contact" className="max-w-6xl mx-auto px-6 mt-20 pb-10">
+      <section id="contact" className="max-w-7xl mx-auto  mt-20 pb-10">
         <Contact></Contact>
       </section>
 
       {/* StickyIcons */}
       <StickyIcons></StickyIcons>
       {/* Special section */}
-      <section id="special" className="max-w-6xl mx-auto px-6 mt-20 pb-10">
+      <section id="special" className="max-w-7xl mx-auto  mt-20 pb-10">
         <Special></Special>
       </section>
     </div>
