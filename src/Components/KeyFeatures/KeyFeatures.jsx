@@ -104,7 +104,7 @@ const KeyFeatures = () => {
   return (
     <section className="  text-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
+        <div className=" mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Features</h2>
           <p className="mt-2 text-gray-400">
             প্রয়োজনীয় ফিচার ইনবিল্ট করা হয়ে থাকে

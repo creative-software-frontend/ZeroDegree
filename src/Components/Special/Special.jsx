@@ -29,7 +29,7 @@ const Special = () => {
   return (
     <section className=" text-white">
       <div className="">
-        <div className="text-center mb-12">
+        <div className=" mb-12 text-left">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Special for You!
           </h2>

@@ -3,11 +3,11 @@ import React from 'react';
 const Services = () => {
   return (
     <>
-      <div className="text-center mb-16" data-aos="fade-up">
+      <div className=" mb-16" data-aos="fade-up">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
           Our Services
         </h2>
-        <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+        <p className="text-lg text-slate-300 ">
           Four core pillars — end-to-end services tailored to your needs.
         </p>
       </div>

@@ -102,6 +102,10 @@ const Home = () => {
       <section id="team" className="max-w-7xl mx-auto  mt-20">
         <Team></Team>
       </section>
+      {/* Special section */}
+      <section id="special" className="max-w-7xl mx-auto  mt-20 pb-10">
+        <Special></Special>
+      </section>
       {/* Contact Section */}
       <section id="contact" className="max-w-7xl mx-auto  mt-20 pb-10">
         <Contact></Contact>
@@ -109,10 +113,6 @@ const Home = () => {
 
       {/* StickyIcons */}
       <StickyIcons></StickyIcons>
-      {/* Special section */}
-      <section id="special" className="max-w-7xl mx-auto  mt-20 pb-10">
-        <Special></Special>
-      </section>
     </div>
   );
 };

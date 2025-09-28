@@ -175,11 +175,11 @@ const Packages = () => {
   return (
     <section className="">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="lext-left mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Our e-commerce packages
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300  text-left">
             There are various plans or packages available to start an e-commerce
             business, depending on your budget, target audience, product, and
             marketing strategy. Below are some common e-commerce plan
