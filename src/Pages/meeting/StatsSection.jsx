@@ -30,13 +30,13 @@ const StatsSection = () => {
   const stats = [
     {
       icon: <FaGlobe className="text-4xl text-blue-400" />,
-      value: <CountUp end={400} />,
+      value: <CountUp end={5000} />,
       label: 'Websites Developed',
       suffix: '+',
     },
     {
       icon: <FaCalendarAlt className="text-4xl text-green-400" />,
-      value: <CountUp end={10} />,
+      value: <CountUp end={15} />,
       label: 'Years of Experience',
       suffix: '+',
     },
@@ -53,10 +53,10 @@ const StatsSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            ZERO DEGREE এর অর্জন
+            Achievement of ZERO DEGREE AGENCY
           </h2>
           <p className="text-xl text-blue-300">
-            গর্বের অর্জন এবং সাফল্যের গল্প
+           Stories of Proud Achievements and Success
           </p>
         </div>
 
