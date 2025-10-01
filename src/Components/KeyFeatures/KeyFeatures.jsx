@@ -26,10 +26,10 @@ const KeyFeatures = () => {
       icon: <FaChartLine className="text-3xl text-green-500" />,
       title: 'Fraud Checker',
       banglaTitle:
-        'কোন কাস্টোমার প্রোডাক্ট পাঠানোর পর রিসিভ করবে না তা আগেই জেনে যাবেন',
+        'Know in advance which customers will or will not receive the product after it is shipped.',
       description:
         'Identify potentially fraudulent customers before shipping products',
-    },
+    },ff
     {
       icon: <FaShieldAlt className="text-3xl text-red-500" />,
       title: 'IP Ban',
