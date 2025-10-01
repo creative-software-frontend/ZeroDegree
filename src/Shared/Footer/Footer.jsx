@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white">Zero Degree</h3>
+            <h3 className="text-xl font-bold text-white">Zero Degree Agency</h3>
             <p className="text-sm">
               Providing cutting-edge e-commerce solutions and digital marketing
               services to help businesses thrive in the digital landscape.
@@ -132,24 +132,34 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t mr-12 border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p>© 2025 Zero Degree Agency — All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0 text-xs md:text-sm">
-            <span className="underline hover:text-blue-400 cursor-pointer">
-              Return Policy
-            </span>
-            <span className="underline hover:text-blue-400 cursor-pointer">
-              Sitemap
-            </span>
+             <Link
+              className="underline hover:text-blue-400 cursor-pointer"
+              to={'/return-policy'}
+            >
+               Return Policy
+            </Link>           
             <Link
               className="underline hover:text-blue-400 cursor-pointer"
               to={'/privacy-policy'}
             >
               Privacy policy
             </Link>
-            <span className="underline hover:text-blue-400 cursor-pointer">
-              Terms of Service
-            </span>
+              <Link
+              className="underline hover:text-blue-400 cursor-pointer"
+              to={'/sitemap'}
+            >
+               Sitemap
+            </Link>
+             <Link
+              className="underline hover:text-blue-400 cursor-pointer"
+              to={'/Terms'}
+            >
+               Terms and Conditions
+            </Link>
+           
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { SiHostinger } from "react-icons/si";
 import {
   FaRocket,
   FaChartLine,
@@ -18,7 +19,7 @@ const KeyFeatures = () => {
   const features = [
    
     {
-      icon: <FaChartLine className="text-3xl text-green-500" />,
+      icon: <SiHostinger className="text-3xl text-green-500" />,
       title: 'Free Domain & Hosting',
       banglaTitle:
         'Know in advance which customers will or will not receive the product after it is shipped.',

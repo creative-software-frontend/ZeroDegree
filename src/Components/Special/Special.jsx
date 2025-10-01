@@ -1,4 +1,6 @@
 import React from 'react';
+import { PiPhoneCallDuotone } from "react-icons/pi";
+
 import { FaShieldAlt, FaEdit, FaHeadset, FaWhatsapp } from 'react-icons/fa';
 
 const Special = () => {
@@ -11,7 +13,7 @@ const Special = () => {
       whatsappText: 'WhatsApp',
     },
     {
-      icon: <FaHeadset className="text-4xl text-green-500" />,
+      icon: <PiPhoneCallDuotone className="text-4xl text-green-500" />,
       title: '24/7 Support',
       description:
         '24/7 support is a customer service strategy that involves assisting around the clock, 365 days a year.',
