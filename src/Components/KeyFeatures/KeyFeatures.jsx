@@ -19,6 +19,22 @@ const KeyFeatures = () => {
    
     {
       icon: <FaChartLine className="text-3xl text-green-500" />,
+      title: 'Free Domain & Hosting',
+      banglaTitle:
+        'Know in advance which customers will or will not receive the product after it is shipped.',
+      description:
+        'Identify potentially fraudulent customers before shipping products',
+    },
+    {
+      icon: <FaLaptop className="text-3xl text-purple-500" />,
+      title: 'Landing Page',
+      banglaTitle:
+        'Special landing pages for marketing specific products on eCommerce websites',
+      description:
+        'Create special landing pages for marketing specific products',
+    },
+    {
+      icon: <FaChartLine className="text-3xl text-green-500" />,
       title: 'Fraud Checker',
       banglaTitle:
         'Know in advance which customers will or will not receive the product after it is shipped.',
@@ -31,14 +47,7 @@ const KeyFeatures = () => {
       banglaTitle: 'Benefits of banning fraudulent customer IDs',
       description: 'Block fraudulent customers by their IP addresses',
     },
-    {
-      icon: <FaLaptop className="text-3xl text-purple-500" />,
-      title: 'Landing Page',
-      banglaTitle:
-        'Special landing pages for marketing specific products on eCommerce websites',
-      description:
-        'Create special landing pages for marketing specific products',
-    },
+    
     {
       icon: <FaTruck className="text-3xl text-yellow-500" />,
       title: 'One Click Courier Entry',
