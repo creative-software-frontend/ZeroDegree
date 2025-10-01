@@ -142,12 +142,12 @@ const Contact = () => {
               <h3 className="font-semibold text-white">Website</h3>
               <p className="text-slate-300 mt-1">
                 <a
-                  href="https://creativesoftware.com.bd"
+                  href="https://zerodegree.com.bd"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  www.creativesoftware.com
+                  www.zerodegree.com.bd
                 </a>
               </p>
             </div>

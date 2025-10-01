@@ -133,7 +133,7 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p>© 2025 Zero Degree — All rights reserved.</p>
+          <p>© 2025 Zero Degree Agency — All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0 text-xs md:text-sm">
             <span className="underline hover:text-blue-400 cursor-pointer">
               Return Policy
