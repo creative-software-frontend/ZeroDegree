@@ -117,7 +117,7 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center">
                 <FaPhone className="mr-2 text-blue-400" />
-                <span>+8801978866977</span>
+                <span>+880 9649 866 977</span>
               </div>
               <div className="flex items-center">
                 <FaEnvelope className="mr-2 text-blue-400" />
@@ -125,7 +125,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <FaMapMarkerAlt className="mr-2 mt-1 text-blue-400 flex-shrink-0" />
-                <span>Dhaka, Bangladesh</span>
+                <span> 20/2, West Panthapath, Dhaka-1205</span>
               </div>
             </div>
           </div>

@@ -72,7 +72,7 @@ const Contact = () => {
             <div>
               <h3 className="font-semibold text-white">Address</h3>
               <p className="text-slate-300 mt-1">
-                Panthapath, Dhaka, Bangladesh
+                20/2, West Panthapath, Dhaka-1205
               </p>
             </div>
           </div>
