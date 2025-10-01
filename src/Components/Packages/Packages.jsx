@@ -12,34 +12,38 @@ const Packages = () => {
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'সীমিত প্রোডাক্ট লিস্টিং (৫০–১০০ প্রোডাক্ট পর্যন্ত)',
+          text: 'Limited product listing (up to 50–100)',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'বেসিক ওয়েবসাইট/স্টোর ডিজাইন',
+          text: 'Basic website/store design',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'ইমেইল ও চ্যাট কাস্টমার সাপোর্ট',
+          text: 'Easy Courier Entry',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'ম্যানুয়াল অর্ডার ম্যানেজমেন্ট',
+          text: 'Manual order management',
+        },
+       {
+          icon: <IoMdCheckmark className="text-green-400" />,
+          text: 'COD Payment Gateway',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'ফেসবুক পেইজ ইন্টিগ্রেশন সহ বেসিক মার্কেটিং টুলস',
-        },
-        {
-          icon: <FaXmark className="text-red-400" />,
-          text: 'Multi-vendor Marketplace (একাধিক সেলার এক প্ল্যাটফর্মে)',
+          text: 'Single vendor Marketplace ',
         },
         {
           icon: <FaXmark className="text-red-400" />,
           text: 'Advanced Inventory & Supply Chain Management',
         },
+         {
+          icon: <FaXmark className="text-red-400" />,
+          text: 'Mobile App (Android + iOS)',
+        },
       ],
-      price: '৳15,000',
+      price: '৳20,000',
       originalPrice: '৳25,000',
       demos: [
         { name: 'Demo-1', link: 'https://demo-bd.com/ecom/ecom1' },
@@ -54,31 +58,31 @@ const Packages = () => {
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'আনলিমিটেড প্রোডাক্ট লিস্টিং',
+          text: 'Unlimited product listings',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'প্রফেশনাল ওয়েবসাইট/অ্যাপ ডিজাইন',
+          text: 'Professional Website Design',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'ইনভেন্টরি ম্যানেজমেন্ট সিস্টেম',
+          text: 'Easy Courier Entry',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'মাল্টি-পেমেন্ট গেটওয়ে (Bkash, Nagad, Card, COD)',
+          text: 'Multi-payment gateway (Bkash, Nagad, COD)',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'SEO ও Social Media Marketing টুলস',
+          text: 'Single vendor Marketplace',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'কাস্টমার রিভিউ ও রেটিং সিস্টেম',
+          text: 'Customer review and rating system',
         },
         {
           icon: <FaXmark className="text-red-400" />,
-          text: 'AI-driven Marketing (Recommendation, Email Automation)',
+          text: 'AI-driven Marketing (Recommendation)',
         },
         {
           icon: <FaXmark className="text-red-400" />,
@@ -99,7 +103,7 @@ const Packages = () => {
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'Multi-vendor Marketplace (একাধিক সেলার এক প্ল্যাটফর্মে)',
+          text: 'Multi-vendor Marketplace',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -107,7 +111,7 @@ const Packages = () => {
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'অটোমেশন (Order, Invoice, Delivery Tracking)',
+          text: 'Automation (Order, Invoice, Delivery Tracking)',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -123,7 +127,7 @@ const Packages = () => {
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: '২৪/৭ Dedicated Support',
+          text: '24/7 Dedicated Support',
         },
       ],
       price: '৳1,00,000',
@@ -233,7 +237,7 @@ const Packages = () => {
               {/* Footer */}
               <div className="p-6 border-t border-gray-700">
                 <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wide mb-4">
-                  লাইভ ড্যামো
+                  Live Demo
                 </h4>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {pkg.demos.map((demo, i) => (
