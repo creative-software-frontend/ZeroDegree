@@ -12,7 +12,11 @@ const Packages = () => {
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'Limited product listing (up to 50–100)',
+          text: 'Free Domain + Hosting (.xyz, .shop, .online)',
+        },
+        {
+          icon: <IoMdCheckmark className="text-green-400" />,
+          text: 'Limited product listing (up to 50)',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -56,6 +60,10 @@ const Packages = () => {
       name: 'Medium',
       title: 'Growth Plan',
       features: [
+         {
+          icon: <IoMdCheckmark className="text-green-400" />,
+          text: 'Free Domain + Hosting (.com, own Brand)',
+        },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
           text: 'Unlimited product listings',
@@ -101,7 +109,10 @@ const Packages = () => {
       name: 'Enterprise',
       title: 'Premium Plan',
       features: [
-        {
+         {
+          icon: <IoMdCheckmark className="text-green-400" />,
+          text: 'Free Domain + Hosting (.com, own Brand)',
+        },{
           icon: <IoMdCheckmark className="text-green-400" />,
           text: 'Multi-vendor Marketplace',
         },
@@ -117,13 +128,17 @@ const Packages = () => {
           icon: <IoMdCheckmark className="text-green-400" />,
           text: 'Loyalty Program ও Membership Feature',
         },
-        {
+       {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'Mobile App (Android + iOS)',
+          text: 'Multi-payment gateway (Bkash, Nagad, COD)',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
-          text: 'AI-driven Marketing (Recommendation, Email Automation)',
+          text: 'AI-driven Marketing (Recommendation)',
+        },
+         {
+          icon: <IoMdCheckmark className="text-green-400" />,
+          text: 'Mobile App (Android + iOS)',
         },
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -141,37 +156,37 @@ const Packages = () => {
     {
       id: 4,
       title: 'International Expansion Plan',
-      subtitle: '👉 যারা গ্লোবাল মার্কেটে যেতে চান',
+      subtitle: '👉 Those who want to go to the global market',
       features: [
-        'Multi-currency & Multi-language সাপোর্ট',
-        'International Payment Gateway (PayPal, Stripe, Wise ইত্যাদি)',
+        'Multi-currency & Multi-language Support',
+        'International Payment Gateway (SSL, PayPal, Stripe, Wise)',
         'Cross-border Shipping Integration',
         'Global SEO Optimization',
-        'Data Security & Compliance (GDPR ইত্যাদি)',
+        'Data Security & Compliance (GDPR)',
       ],
     },
     {
       id: 5,
       title: 'Reseller / Dropshipping Plan',
-      subtitle: '👉 যারা নিজস্ব প্রোডাক্ট ছাড়াই ব্যবসা করতে চান',
+      subtitle: '👉 Those who want to go to the global market',
       features: [
         'Ready Product Catalog Integration',
-        'অটোমেটিক প্রোডাক্ট Import/Export',
-        'Supplier থেকে Direct Shipping',
-        'কম খরচে ব্যবসা শুরু করার সুযোগ',
+        'Automatic product Import/Export',
+        'Supplier to Direct Shipping',
+        'Opportunity to start a business at low cost',
         'Profit Margin Setup System',
       ],
     },
     {
       id: 6,
       title: 'Additional Features Plan',
-      subtitle: '👉 যারা নিজস্ব প্রোডাক্ট ছাড়াই ব্যবসা করতে চান',
+      subtitle: '👉 Those who want to go to the global market',
       features: [
-        'কাস্টম ডোমেইন + হোস্টিং',
-        'অ্যাফিলিয়েট মার্কেটিং সিস্টেম',
-        'কাস্টমার লয়্যালটি পয়েন্টস',
-        'চ্যাটবট/AI সাপোর্ট',
-        'ডাটা অ্যানালিটিক্স ও রিপোর্টিং',
+        'Custom Domain + Hosting',
+        'Affiliate Marketing System',
+        'Customer loyalty points',
+        'Chatbot/AI support',
+        'Data Analytics and Reporting',
       ],
     },
   ];
