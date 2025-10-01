@@ -16,12 +16,7 @@ import {
 
 const KeyFeatures = () => {
   const features = [
-    {
-      icon: <FaRocket className="text-3xl text-blue-500" />,
-      title: 'Incomplete Order',
-      banglaTitle: 'ইনকমপ্লিট অর্ডার ডাটা, যা সেল বাড়াবে 10x',
-      description: 'Track and recover abandoned carts to boost sales by 10x',
-    },
+   
     {
       icon: <FaChartLine className="text-3xl text-green-500" />,
       title: 'Fraud Checker',
@@ -33,71 +28,72 @@ const KeyFeatures = () => {
     {
       icon: <FaShieldAlt className="text-3xl text-red-500" />,
       title: 'IP Ban',
-      banglaTitle: 'ফ্রড কাস্টোমারের আইপি ব্যান করার সুবিধা',
+      banglaTitle: 'Benefits of banning fraudulent customer IDs',
       description: 'Block fraudulent customers by their IP addresses',
     },
     {
       icon: <FaLaptop className="text-3xl text-purple-500" />,
       title: 'Landing Page',
       banglaTitle:
-        'ইকমার্স ওয়েবসাইটে বিশেষ প্রোডাক্টের মার্কেটিংয়ের জন্য স্পেশাল ল্যান্ডিং পেজ',
+        'Special landing pages for marketing specific products on eCommerce websites',
       description:
         'Create special landing pages for marketing specific products',
     },
     {
       icon: <FaTruck className="text-3xl text-yellow-500" />,
-      title: 'Courier Entry',
+      title: 'One Click Courier Entry',
       banglaTitle:
-        'স্টিডফাস্ট, পাঠাও এবং রেডেক্স কুরিয়ারে এক ক্লিকে অর্ডার ডিটেইল এন্ট্রি',
+        'One-click order details entry for Steadfast, Pathao and Redex couriers',
       description: 'One-click order entry for popular courier services',
     },
     {
       icon: <FaMoneyBillAlt className="text-3xl text-indigo-500" />,
       title: 'Amount Adjust',
-      banglaTitle: 'কুরিয়ারে এন্ট্রির আগে অর্ডার অ্যামাউন্ট এডজাস্ট করা যায়',
+      banglaTitle: 'Order amount can be adjusted before entry to courier.',
       description: 'Adjust order amounts before finalizing courier entry',
     },
     {
       icon: <FaShoePrints className="text-3xl text-pink-500" />,
       title: 'Foot Print',
       banglaTitle:
-        'যারা ওয়েবসাইটে ফুট প্রিন্ট রেখে যাবে তাদের রিটাগেটিং করে আপনার সেলস বাড়াতে পারবেন',
+        'You can increase your sales by retargeting those who leave a footprint on your website.',
       description:
         'Retarget visitors based on their browsing behavior to increase sales',
     },
     {
       icon: <FaClipboardList className="text-3xl text-teal-500" />,
       title: 'Order Management',
-      banglaTitle: 'অর্ডার সহজে ম্যানেজ করতে পারবেন',
+      banglaTitle: 'You can easily manage orders.',
       description: 'Easily manage and track all your orders in one place',
     },
-    {
-      icon: <FaFacebook className="text-3xl text-blue-600" />,
-      title: 'Pixel Setup',
-      banglaTitle:
-        'সার্ভার সাইড ট্র্যাকিং সহ পিক্সেল সেটাপ করে এড রান করে প্রচুর সেল করতে পারবেন',
-      description:
-        'Setup server-side tracking with Facebook Pixel for better ad performance',
-    },
+    
     {
       icon: <FaBox className="text-3xl text-orange-500" />,
-      title: 'Stock',
-      banglaTitle: 'স্টক ম্যানেজ করার সুবিধাও থাকছে',
+      title: 'Inventory/Stock',
+      banglaTitle: 'There is also the facility to manage stock.',
       description: 'Manage inventory and track stock levels efficiently',
     },
     {
       icon: <FaFileInvoiceDollar className="text-3xl text-green-600" />,
-      title: 'Invoice',
-      banglaTitle: 'ইনভয়েস প্রিন্ট / ডাউনলোড',
+      title: 'Invoice/Bill',
+      banglaTitle: 'Invoice Print/Download',
       description: 'Print or download invoices for all your orders',
     },
     {
       icon: <FaGoogle className="text-3xl text-red-600" />,
-      title: 'Pixel Setup',
+      title: 'Google Tag Manager',
       banglaTitle:
-        'সার্ভার সাইড ট্র্যাকিং সহ পিক্সেল সেটাপ করে এড রান করে প্রচুর সেল করতে পারবেন',
+        'You can set up a pixel with server-side tracking and run ads to make a lot of sales.',
       description:
         'Setup server-side tracking with Google Pixel for better ad performance',
+    },
+    {
+      icon: <FaFacebook className="text-3xl text-blue-600" />,
+      title: 'Facebook Pixel Setup',
+      banglaTitle:
+        'You can set up a pixel with server-side tracking and run ads to make a lot of sales.',
+      description:
+        'Setup server-side tracking with Facebook Pixel for better ad performance',
     },
   ];
 
@@ -107,7 +103,7 @@ const KeyFeatures = () => {
         <div className=" mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Features</h2>
           <p className="mt-2 text-gray-400">
-            প্রয়োজনীয় ফিচার ইনবিল্ট করা হয়ে থাকে
+            Necessary features are built-in
           </p>
         </div>
 

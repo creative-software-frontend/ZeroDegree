@@ -11,7 +11,7 @@ const Special = () => {
       whatsappText: 'WhatsApp',
     },
     {
-      icon: <FaEdit className="text-4xl text-green-500" />,
+      icon: <FaHeadset className="text-4xl text-green-500" />,
       title: '24/7 Support',
       description:
         '24/7 support is a customer service strategy that involves assisting around the clock, 365 days a year.',
@@ -19,7 +19,7 @@ const Special = () => {
     },
     {
       icon: <FaHeadset className="text-4xl text-purple-500" />,
-      title: 'Technical Support',
+      title: 'Free Support',
       description:
         'Free technical support for the next 1 month after developing a user-friendly designed website and app.',
       whatsappText: 'WhatsApp',

@@ -8,7 +8,7 @@ const Packages = () => {
   const packages = [
     {
       name: 'Basic',
-      title: 'বেসিক স্টার্টআপ প্ল্যান',
+      title: 'Startup plan',
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -39,8 +39,8 @@ const Packages = () => {
           text: 'Advanced Inventory & Supply Chain Management',
         },
       ],
-      price: '১৫,০০০ টাকা',
-      originalPrice: '২০,০০০ টাকা',
+      price: '৳15,000',
+      originalPrice: '৳25,000',
       demos: [
         { name: 'Demo-1', link: 'https://demo-bd.com/ecom/ecom1' },
         { name: 'Demo-2', link: 'https://demo-bd.com/ecom/ecom2' },
@@ -49,8 +49,8 @@ const Packages = () => {
       popular: false,
     },
     {
-      name: 'Growth',
-      title: 'গ্রোথ প্ল্যান',
+      name: 'Medium',
+      title: 'Growth Plan',
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -85,8 +85,8 @@ const Packages = () => {
           text: 'Mobile App (Android + iOS)',
         },
       ],
-      price: '২০,০০০ টাকা',
-      originalPrice: '২৫,০০০ টাকা',
+      price: '৳50,000',
+      originalPrice: '৳75,000',
       demos: [
         { name: 'Demo-1', link: 'https://devilish-crowd.surge.sh' },
         { name: 'Demo-2', link: 'https://familiar-corn.surge.sh/' },
@@ -94,8 +94,8 @@ const Packages = () => {
       popular: true,
     },
     {
-      name: 'Premium',
-      title: 'প্রিমিয়াম ব্র্যান্ড প্ল্যান',
+      name: 'Enterprise',
+      title: 'Premium Plan',
       features: [
         {
           icon: <IoMdCheckmark className="text-green-400" />,
@@ -126,8 +126,8 @@ const Packages = () => {
           text: '২৪/৭ Dedicated Support',
         },
       ],
-      price: '৩০,০০০ টাকা',
-      originalPrice: '৪০,০০০ টাকা',
+      price: '৳1,00,000',
+      originalPrice: '৳,120,000',
       demos: [{ name: 'Demo-1', link: 'https://premium-brand.demo.com' }],
       popular: false,
     },
@@ -136,7 +136,7 @@ const Packages = () => {
   const otherPlans = [
     {
       id: 4,
-      title: 'ইন্টারন্যাশনাল এক্সপ্যানশন প্ল্যান',
+      title: 'International Expansion Plan',
       subtitle: '👉 যারা গ্লোবাল মার্কেটে যেতে চান',
       features: [
         'Multi-currency & Multi-language সাপোর্ট',
@@ -148,7 +148,7 @@ const Packages = () => {
     },
     {
       id: 5,
-      title: 'রিসেলার / ড্রপশিপিং প্ল্যান',
+      title: 'Reseller / Dropshipping Plan',
       subtitle: '👉 যারা নিজস্ব প্রোডাক্ট ছাড়াই ব্যবসা করতে চান',
       features: [
         'Ready Product Catalog Integration',
@@ -160,8 +160,8 @@ const Packages = () => {
     },
     {
       id: 6,
-      title: 'অতিরিক্ত ফিচার যা প্ল্যানে দেওয়া যায়',
-      subtitle: '',
+      title: 'Additional Features Plan',
+      subtitle: '👉 যারা নিজস্ব প্রোডাক্ট ছাড়াই ব্যবসা করতে চান',
       features: [
         'কাস্টম ডোমেইন + হোস্টিং',
         'অ্যাফিলিয়েট মার্কেটিং সিস্টেম',
