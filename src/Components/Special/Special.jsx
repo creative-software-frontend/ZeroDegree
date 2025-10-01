@@ -7,21 +7,21 @@ const Special = () => {
       icon: <FaShieldAlt className="text-4xl text-blue-500" />,
       title: 'Fully Secured',
       description:
-        'কাস্টোমারদের ওয়েবসাইটকে নিরাপদ রাখার জন্য আমরা সবচেয়ে সেইফ টেকনোলজি ইউজ করি',
+        'We use the safest technology to keep our customers websites safe.',
       whatsappText: 'WhatsApp',
     },
     {
       icon: <FaEdit className="text-4xl text-green-500" />,
-      title: 'Easy to Edit',
+      title: '24/7 Support',
       description:
-        'আপনি নিজের ওয়েবসাইটকে প্রয়োজন অনুযায়ী ইডিট করে নিতে পারবেন। আমরা শতভাগ ডায়নামিক ওয়েবসাইট তৈরী করি',
+        '24/7 support is a customer service strategy that involves assisting around the clock, 365 days a year.',
       whatsappText: 'WhatsApp',
     },
     {
       icon: <FaHeadset className="text-4xl text-purple-500" />,
       title: 'Technical Support',
       description:
-        'ইউজার ফ্রেন্ডলি ডিজাইনের ওয়েবসাইট ও অ্যাপ ডেভেলপ করার পরবর্তী ১২ মাস টেকনিক্যাল সাপোর্ট ফ্রি',
+        'Free technical support for the next 1 month after developing a user-friendly designed website and app.',
       whatsappText: 'WhatsApp',
     },
   ];
@@ -34,7 +34,7 @@ const Special = () => {
             Special for You!
           </h2>
           <p className="text-xl text-blue-300">
-            আমাদের বিশেষ পরিষেবাসমূহ যা আপনার ব্যবসাকে দ্রুত এগিয়ে নেবে
+            Our special services that will accelerate your business
           </p>
         </div>
 
